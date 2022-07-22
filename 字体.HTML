@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            /* font-family: 宋体; */
+            /* 没有雅黑，按照宋体，没有宋体，按照一种非衬线字体 */
+            /* font-family: 微软雅黑, 宋体, sans-serif; */
+        /* } */ 
+        div{
+            font:italic 700 66px 宋体;
+            text-decoration: line-through;
+           
+        }
+        p{
+        /* text-indent: 2em; */
+        text-align: center;
+        line-height: 5; /*行高算是按照上间距+文本高度+下边距整体的部分来去算的  */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        这是一个div标签
+    </div>
+    <p>	如果在同一个标签中同样的属性，依次设置了不同的属性，那么属性会以后面的为最后结果，层叠就是覆盖的意思 
+        在使用到font的使用值时候，有化简的方式 font：style weight size family 按照顺序进行排列（被称为叫做复合属性）当想重新更改的话，就在下方重新写就可以了
+    </p>
+    <a href="#">一个超链接下划线</a>
+</body>
+</html>
